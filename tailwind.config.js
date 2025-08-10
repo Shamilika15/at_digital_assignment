@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}', // Ensures all your JS/JSX/TSX files in the src folder are processed
+    './src/**/*.{js,jsx,ts,tsx}', 
   ],
   theme: {
     extend: {
       colors: {
-        primary: '#4F46E5', // Custom color
+        primary: '#4F46E5', 
         secondary: '#F28D35',
         analogous1: '#6A44F2',
         analogous2: '#1CBDDD',
@@ -22,7 +22,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-         poppins: ['Poppins', 'sans-serif'],// Custom font
+         poppins: ['Poppins', 'sans-serif'],
       },
       screens: {
         xs: '480px',

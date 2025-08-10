@@ -84,7 +84,7 @@ export default function HeroSection() {
               className="order-1 md:order-1 md:ml-[40px] lg:ml-[188px]
                          w-[260px] sm:w-[300px] md:w-[414px]
                          mx-auto md:mx-0 flex-shrink-0 self-start
-                         lg:-mt-[113.5px]"  /* only overlap on lg+ */
+                         lg:-mt-[113.5px]"  
             >
               <img
                 src={image2}
@@ -140,7 +140,7 @@ export default function HeroSection() {
               className="order-1 md:order-2 md:mr-[40px] lg:mr-[188px]
                          w-[260px] sm:w-[300px] md:w-[414px]
                          mx-auto md:mx-0 flex-shrink-0 self-start
-                         lg:-mt-[105px]"   /* only overlap on lg+ */
+                         lg:-mt-[105px]"   
             >
               <img
                 src={image}

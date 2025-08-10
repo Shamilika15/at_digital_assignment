@@ -9,7 +9,7 @@ export default function App() {
     <div className="font-inter bg-white min-h-screen">
       <TopNavigation />
 
-      {/* Hero Section (no margin-top here) */}
+      {/* Hero Section */}
       <HeroSection />
 
       {/* FAQ Title */}

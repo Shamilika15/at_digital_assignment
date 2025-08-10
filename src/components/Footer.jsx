@@ -5,7 +5,6 @@ export default function Footer() {
   return (
     <footer className="bg-primary text-white font-inter">
       <div className="mx-auto max-w-[1200px] px-5 sm:px-10 lg:px-20 py-10">
-        {/* Use flex on lg, grid on md for stacking behavior */}
         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-10 lg:gap-8">
           {/* Logo + description */}
           <div className="md:max-w-[413px]">
